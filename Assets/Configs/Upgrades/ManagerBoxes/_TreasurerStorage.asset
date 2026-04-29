@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a86f11ac93f1c4cab56ea0f12e3e8f, type: 3}
+  m_Name: _TreasurerStorage
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeBoxData
+  Type: 21
+  Icon: {fileID: 21300000, guid: e034e03c426890841b972fa0c9424747, type: 3}
+  NotUpgradedIcon: {fileID: 21300000, guid: 5908bbe5e19d8454caa4a1882d19a526, type: 3}
+  CurrencyIcon: {fileID: 21300000, guid: c8cced435b02b3749a0d244090ec6980, type: 3}
+  Title: Treasurer Storage Officer
+  Description: Increase Diamond Store Capability
+  MaxUpgradeCounter: 30
+  StartCost: 5
+  EndCost: 60
+  StartValue: 10
+  EndValue: 150
+  IsIntValue: 1

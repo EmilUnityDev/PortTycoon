@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bfa920bd6692b64c84086694a4dcd78, type: 3}
+  m_Name: PortCrane
+  m_EditorClassIdentifier: 
+  UpgraderTitle: Port Area Upgrade
+  UpgraderTitleManager: Port Area Manager
+  _upgrades:
+  - _upgradeBoxesArray:
+    - {fileID: 11400000, guid: 3139759231700064a89b4cab931c0311, type: 2}
+    - {fileID: 11400000, guid: db958aca0a149ad429bc1720271a3287, type: 2}
+    - {fileID: 11400000, guid: c10ea4c19923d14478080bb104632ead, type: 2}
+  - _upgradeBoxesArray:
+    - {fileID: 11400000, guid: 88a4f8fd240512c449e370140aa35fdc, type: 2}
+    - {fileID: 11400000, guid: 051167fede1cc994dba972825b8745c4, type: 2}

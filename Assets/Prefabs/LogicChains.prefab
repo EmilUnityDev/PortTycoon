@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1506379106884342437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379106884342438}
+  m_Layer: 0
+  m_Name: LogicChains
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379106884342438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379106884342437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.69018, y: -11.110184, z: 9.588005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1506379108119857401}
+  - {fileID: 1506379107942912928}
+  - {fileID: 1506379108687668876}
+  - {fileID: 1506379107974371727}
+  - {fileID: 1506379107110962997}
+  - {fileID: 1506379107088956231}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1506379107088956230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379107088956231}
+  - component: {fileID: 1506379107088956232}
+  - component: {fileID: 1506379107088956233}
+  m_Layer: 0
+  m_Name: Ship
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379107088956231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107088956230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1506379106884342438}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506379107088956232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107088956230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459c5f796293da64bb9dddc1d2d8a4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextNode: {fileID: 0}
+  PreviousNode: {fileID: 1506379107110962999}
+  IsNodeReady: 0
+  IsBuilded: 1
+  WorkerNode: {fileID: 0}
+--- !u!114 &1506379107088956233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107088956230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a88840c3d5d55743a4d868eb25c5488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 2557909448534905643, guid: fd6eeb8c6388cff4a9907e0ca78b9886, type: 3}
+  _workingSpeed: 4
+  _moneySpawnPoint: {fileID: 0}
+  _currentNodeType: 2
+  _containerPrefabs: {fileID: 11400000, guid: fa81fa44754d7b844abd1266c2254120, type: 2}
+  _ships:
+  - {fileID: 2557909448534905643, guid: fd6eeb8c6388cff4a9907e0ca78b9886, type: 3}
+  - {fileID: 8594254554417215387, guid: b2bde06d284cf444d92b72f29002d865, type: 3}
+  - {fileID: 8986288074549186814, guid: c6080b2590e56de468043b5d0c3707cc, type: 3}
+  _shipStartPosition: {fileID: 0}
+  _shipLoadPosition: {fileID: 0}
+  _shipEndPosition: {fileID: 0}
+--- !u!1 &1506379107110962996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379107110962997}
+  - component: {fileID: 1506379107110962999}
+  - component: {fileID: 1506379107110962998}
+  m_Layer: 0
+  m_Name: PortCrane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379107110962997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107110962996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1506379106884342438}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506379107110962999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107110962996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459c5f796293da64bb9dddc1d2d8a4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextNode: {fileID: 1506379107088956232}
+  PreviousNode: {fileID: 1506379107974371729}
+  IsNodeReady: 0
+  IsBuilded: 1
+  WorkerNode: {fileID: 0}
+--- !u!114 &1506379107110962998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107110962996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaadae0e68aed0242ab85161d0e1c36e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 0}
+  _workingSpeed: 0.25
+  _moneySpawnPoint: {fileID: 0}
+  _currentNodeType: 1
+  CranePosition: {fileID: 0}
+  _containerMover: {fileID: 0}
+  _containerPlace: {fileID: 0}
+  _scalingRope: {fileID: 0}
+  _crane: {fileID: 0}
+  _containerPrefab: {fileID: 3206791452290385471, guid: 4c2631acff5fd814f82fb246f66f4173, type: 3}
+  _ropeScalingSpeed: 12
+--- !u!1 &1506379107942912927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379107942912928}
+  - component: {fileID: 1506379107942912930}
+  - component: {fileID: 1506379107942912929}
+  m_Layer: 0
+  m_Name: SquareCrane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379107942912928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107942912927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.93, y: 7.33, z: 38.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1506379106884342438}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506379107942912930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107942912927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459c5f796293da64bb9dddc1d2d8a4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextNode: {fileID: 1506379108687668877}
+  PreviousNode: {fileID: 1506379108119857403}
+  IsNodeReady: 1
+  IsBuilded: 1
+  WorkerNode: {fileID: 0}
+--- !u!114 &1506379107942912929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107942912927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e86f393f8b8af34cbe1350839d97530, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 0}
+  _workingSpeed: 0.2
+  _moneySpawnPoint: {fileID: 0}
+  _currentNodeType: 1
+  MaxHeight: 3
+  ContainersCapacity: 9
+  _containerPrefabs: {fileID: 11400000, guid: fa81fa44754d7b844abd1266c2254120, type: 2}
+  _movingCrane: {fileID: 0}
+  _craneMover: {fileID: 0}
+  _startPosition: {fileID: 0}
+  _endPosition: {fileID: 0}
+  _square: {fileID: 0}
+  _newLevelLength: 0.3
+--- !u!1 &1506379107974371726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379107974371727}
+  - component: {fileID: 1506379107974371729}
+  - component: {fileID: 1506379107974371728}
+  m_Layer: 0
+  m_Name: PortRoad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379107974371727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107974371726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1506379106884342438}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506379107974371729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107974371726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459c5f796293da64bb9dddc1d2d8a4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextNode: {fileID: 1506379107110962999}
+  PreviousNode: {fileID: 1506379108687668877}
+  IsNodeReady: 0
+  IsBuilded: 1
+  WorkerNode: {fileID: 0}
+--- !u!114 &1506379107974371728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379107974371726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac68b575c9673e4fabb58e17cc3fe4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 0}
+  _workingSpeed: 0.007
+  _moneySpawnPoint: {fileID: 0}
+  _currentNodeType: 1
+  _carts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _containerPrefabs: {fileID: 11400000, guid: fa81fa44754d7b844abd1266c2254120, type: 2}
+  _cartPrefab: {fileID: 5179494533342657598, guid: ad2a7236acc36b24fbc3107d2571ed0e, type: 3}
+  _newCartsSpawnPoint: {fileID: 0}
+  _spline: {fileID: 0}
+  _cranePoint: 0.13
+  _squareMoverPoint: 0.81
+--- !u!1 &1506379108119857400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379108119857401}
+  - component: {fileID: 1506379108119857403}
+  - component: {fileID: 1506379108119857402}
+  m_Layer: 0
+  m_Name: ComingCars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379108119857401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379108119857400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.93, y: 7.33, z: 8.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1506379106884342438}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506379108119857403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379108119857400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459c5f796293da64bb9dddc1d2d8a4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextNode: {fileID: 1506379107942912930}
+  PreviousNode: {fileID: 0}
+  IsNodeReady: 0
+  IsBuilded: 1
+  WorkerNode: {fileID: 0}
+--- !u!114 &1506379108119857402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379108119857400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5901f5a91e67014eb157c23b66ed82e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 1789912100931716241, guid: 0aeb861e583888f42813bee94bf1ea85, type: 3}
+  _workingSpeed: 0.006
+  _moneySpawnPoint: {fileID: 0}
+  _currentNodeType: 0
+  _carsAmount: 3
+  _spline: {fileID: 0}
+  _readySplinePosition: 0.4625
+  _notReadySplinePosition: 0.4
+  _barrierSplinePosition: 0.22
+  _splineQueueOffset: 0.05
+  _timeBeforeStart: 16
+  _timeOnBarrier: 6
+  _barrier: {fileID: 0}
+  _barrierTrigger: {fileID: 0}
+--- !u!1 &1506379108687668875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506379108687668876}
+  - component: {fileID: 1506379108687668877}
+  - component: {fileID: 1506379108687668878}
+  m_Layer: 0
+  m_Name: Stacker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506379108687668876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379108687668875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1506379106884342438}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1506379108687668877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379108687668875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459c5f796293da64bb9dddc1d2d8a4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextNode: {fileID: 1506379107974371729}
+  PreviousNode: {fileID: 1506379107942912930}
+  IsNodeReady: 0
+  IsBuilded: 1
+  WorkerNode: {fileID: 0}
+--- !u!114 &1506379108687668878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506379108687668875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c7b428ad1796141b2a849590dbaa50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 0}
+  _workingSpeed: 0.4
+  _moneySpawnPoint: {fileID: 0}
+  _currentNodeType: 1
+  _placer: {fileID: 0}
+  _groundPoint: {fileID: 0}
+  _endPoint: {fileID: 0}
+  _verticalRotator: {fileID: 0}
+  _horizontalRotator: {fileID: 0}
+  _mover: {fileID: 0}
+  _containersRotationTarget:
+  - -81
+  - -68
+  - -53
+  _defaultPlacerRotation: -30

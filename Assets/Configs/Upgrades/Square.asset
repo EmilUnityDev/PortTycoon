@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bfa920bd6692b64c84086694a4dcd78, type: 3}
+  m_Name: Square
+  m_EditorClassIdentifier: 
+  UpgraderTitle: Storage Area Upgrade
+  UpgraderTitleManager: Storage Area Manager
+  _upgrades:
+  - _upgradeBoxesArray:
+    - {fileID: 11400000, guid: f33cecc5245d2584eba0718d7eccd937, type: 2}
+    - {fileID: 11400000, guid: ae517b71773b96946b0d0d0020f8075e, type: 2}
+    - {fileID: 11400000, guid: 06d117bd7ab7b264ea55f830e9c1875a, type: 2}
+  - _upgradeBoxesArray:
+    - {fileID: 11400000, guid: 67d05694b76c0c64b96ffcda1f5c27e7, type: 2}
+    - {fileID: 11400000, guid: d6280944a7740e64ebf8677b0ee7f626, type: 2}

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1354886603347057769
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterOcean
+  m_Shader: {fileID: -6465566751694194690, guid: e2239edf1bbe16f4ab4da719a7c98f5d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2488d479bdb343178fa38a6226f7ecfa:
+        m_Texture: {fileID: 2800000, guid: b1d2613d5b5e91848960ec8f7741e1ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_0e612e6cf2414a149319d5c12c7aad9f: 1.5
+    - Vector1_294baa44f5c949139f8f6e76b4ca81b1: 0.07
+    - Vector1_2e43a1a85eb740e0be05c5a9b3391ce1: 1
+    - Vector1_b0a778960f7b4ec0ba8f572b7853acf3: 0.003
+    - Vector1_b1c625e3e3474bfc9d4fe4d9bff1e5b2: 0.01
+    - Vector1_c1c2e638acbf4ce3acb4f2808043163a: -8.16
+    - Vector1_cd57f57ab634404fa8acb9b92c46a8eb: 300
+    - Vector1_d2ddd69f2c9a4526871f470d5b49ed94: 0.05
+    - Vector1_d8cc2855e7874a73a32b7c31d49f351a: 0.1
+    - _FloatingSpeed: 0.002
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _SurfaceAlpha: 0.824
+    m_Colors:
+    - Color_3da9e6743e134b7a98497a41733d0f32: {r: 0.75, g: 0.94921875, b: 1, a: 1}
+    - Color_a60927b1e967483794005f6a93c1a60d: {r: 0.09803922, g: 0.09803922, b: 0.09803922, a: 1}
+    - Color_f1376661d202475098cd29869862eed6: {r: 0.29826263, g: 0.3829741, b: 0.96981126, a: 1}
+  m_BuildTextureStacks: []

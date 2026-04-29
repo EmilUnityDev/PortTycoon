@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1880549021910219227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880549021910219226}
+  m_Layer: 0
+  m_Name: Global
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880549021910219226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880549021910219227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 75.75256, y: -198.10184, z: 101.95817}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1880549022455060682}
+  - {fileID: 1880549022470806297}
+  - {fileID: 5545829449719759431}
+  - {fileID: 4785215738421530150}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1880549022455060683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880549022455060682}
+  - component: {fileID: 1880549022455060681}
+  m_Layer: 0
+  m_Name: Startup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880549022455060682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880549022455060683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1880549021910219226}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1880549022455060681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880549022455060683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad46a886c3382274c91c61d0bf3ae47e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1880549022470806298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880549022470806297}
+  - component: {fileID: 1967932802566156222}
+  m_Layer: 0
+  m_Name: ResourcesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880549022470806297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880549022470806298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1880549021910219226}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1967932802566156222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880549022470806298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a52a44100ae13a4794e9d23969b9270, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7078120468343922809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5545829449719759431}
+  - component: {fileID: 6446500371460931239}
+  m_Layer: 0
+  m_Name: UpgradesController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5545829449719759431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7078120468343922809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1880549021910219226}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6446500371460931239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7078120468343922809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0680594ad6ca0f4185f0895e0e4472a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _upgrades:
+  - {fileID: 11400000, guid: e195094ea713a5644bb3fd5af7ad8de9, type: 2}
+  - {fileID: 11400000, guid: c10ea4c19923d14478080bb104632ead, type: 2}
+  - {fileID: 11400000, guid: 521cba184ae0e8942b1f6632c7a44b88, type: 2}
+  - {fileID: 11400000, guid: 076724bf88d42a24ba7bbe17283574d7, type: 2}
+  - {fileID: 11400000, guid: 3139759231700064a89b4cab931c0311, type: 2}
+  - {fileID: 11400000, guid: 648b0da449612894cbc83ba4f7cfb6be, type: 2}
+  - {fileID: 11400000, guid: 6324cd718c2f7ff438c451e375b7a7c4, type: 2}
+  - {fileID: 11400000, guid: cd14141f280d2714a8979a877f20bf30, type: 2}
+  - {fileID: 11400000, guid: db958aca0a149ad429bc1720271a3287, type: 2}
+  - {fileID: 11400000, guid: ae517b71773b96946b0d0d0020f8075e, type: 2}
+  - {fileID: 11400000, guid: 3934a771f88cdc949bcf0bcc9a9e1f42, type: 2}
+  - {fileID: 11400000, guid: f33cecc5245d2584eba0718d7eccd937, type: 2}
+  - {fileID: 11400000, guid: 06d117bd7ab7b264ea55f830e9c1875a, type: 2}
+  - {fileID: 11400000, guid: 88a4f8fd240512c449e370140aa35fdc, type: 2}
+  - {fileID: 11400000, guid: d6280944a7740e64ebf8677b0ee7f626, type: 2}
+  - {fileID: 11400000, guid: 67d05694b76c0c64b96ffcda1f5c27e7, type: 2}
+  - {fileID: 11400000, guid: 76cffe97f6040fb4d8ca78f9569371e6, type: 2}
+  - {fileID: 11400000, guid: dca10b6fb37daae48af7b6131dd6c120, type: 2}
+  - {fileID: 11400000, guid: f10898da9004ca34d8d0caf2c90dff1c, type: 2}
+  - {fileID: 11400000, guid: 051167fede1cc994dba972825b8745c4, type: 2}
+  - {fileID: 11400000, guid: 62298b8677335de44adee7133ddeae1e, type: 2}
+  - {fileID: 11400000, guid: 53b236a9e8504eb4da3055ee195f7c26, type: 2}
+--- !u!1 &7232799398182048821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4785215738421530150}
+  - component: {fileID: 3250946577597962230}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4785215738421530150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232799398182048821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1880549021910219226}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3250946577597962230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232799398182048821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1311ece57ef775246930ec3b579d8f49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tutorialPoints:
+  - TutorialPointName: Build Port Crane
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Build Power Station
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Touch To Power Station
+    Type: 1
+    BuildingObjects: []
+    ToBuildObject: []
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Build Storage
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Build Storage Crane
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Build Garage
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Touch To Garage
+    Type: 1
+    BuildingObjects: []
+    ToBuildObject: []
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Build Storage Upgrader
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Build Shipment
+    Type: 0
+    BuildingObjects:
+    - {fileID: 0}
+    ToBuildObject:
+    - {fileID: 0}
+    - {fileID: 0}
+    FingerPoint: {fileID: 0}
+  - TutorialPointName: Tap To Bank
+    Type: 2
+    BuildingObjects: []
+    ToBuildObject: []
+    FingerPoint: {fileID: 0}
+  _fingerPrefab: {fileID: 1495741047950956061, guid: 818f4964b76bde5408f9fd7152415155, type: 3}
